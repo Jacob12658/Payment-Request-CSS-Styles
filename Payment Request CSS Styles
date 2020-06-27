@@ -1,1 +1,31 @@
+.content{
+  text-align: left;
+}
 
+.name{
+  box-sizing: border-box;
+  border: solid 1px black;
+  width: 200px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+#people {
+  display: inline-block;
+  margin: auto;
+  padding: 0px 10px 20px 0px;
+}
+
+.description{
+   padding-bottom: 20px;
+}
+
+.text{
+  padding-bottom: 10px
+}
+
+#submit{
+  display: inline-block;
+  margin: auto;
+  padding: 0px 2px;
+}
