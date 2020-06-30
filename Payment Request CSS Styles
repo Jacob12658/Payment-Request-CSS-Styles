@@ -1,3 +1,40 @@
+.table{
+  left: 675px;
+  top: 25px;
+  position: absolute;
+  border: solid 1px black;
+  width: 150px;
+  text-align: center;
+}
+.children{
+  
+}
+
+.child1 , .child2, .child3{
+  border: solid 1px black;
+  display: absolute;
+  height: 100px;
+}
+
+.child1 h5, .child2 h5. child3 h5{
+  vertical-align: text-top;
+  padding-bottom: 5px;
+}
+.child1 p, .child2 p, .child3 p{
+  display: absolute;
+  font-size: 10px;
+}
+p.month{
+  display: absolute;
+  text-align: center;
+}
+
+#calender1, #calender2, #calender3{
+  background URL: "";
+  display: absolute;
+  transform: translate(40%, -100%);
+}
+
 .content{
   text-align: left;
 }
@@ -11,9 +48,14 @@
 }
 
 #people {
-  display: inline-block;
-  margin: auto;
-  padding: 0px 10px 20px 0px;
+  display: flex;
+  flex-direction: row;
+  height: 20px;
+  padding-bottom: 20px;
+}
+
+.from, .dash, .to{
+  padding-right: 30px;
 }
 
 .description{
@@ -28,4 +70,23 @@
   display: inline-block;
   margin: auto;
   padding: 0px 2px;
+  position: absolute;
+}
+
+#chat{
+  background-image: url("https://w7.pngwing.com/pngs/869/270/png-transparent-text-messaging-instant-messaging-message-send-email-button-miscellaneous-blue-angle.png");
+  text-align: center;
+  width: 20px;
+  left: 600px;
+  bottom: 270px;
+  position: absolute;
+}
+
+#information{
+  background-image: url("https://www.google.com/search?q=info+image&safe=strict&rlz=1C1CHBF_enID790ID790&tbm=isch&source=iu&ictx=1&fir=HjFiPGUqT3hXXM%252CEm_4qxKnV2KuAM%252C_&vet=1&usg=AI4_-kTvJeDSrHD8puA7NwTerSzdw9PDxA&sa=X&ved=2ahUKEwjfmYvHiaLqAhWE83MBHdjWCdkQ9QEwAHoECAkQLw#imgrc=HjFiPGUqT3hXXM");
+  text-align: center;
+  width: 20px;
+  left: 600px;
+  bottom: 240px;
+  position: absolute;
 }
